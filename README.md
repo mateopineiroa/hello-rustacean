@@ -17,5 +17,6 @@ To run the program, use the following command:
 ```bash
 cargo build # This command compiles and produces an executable binary in the target/debug directory.
 cargo run # This command compiles the code and then runs the produced binary.
+cargo check # This command checks your code to make sure it's valid, but doesn't produce an executable.
 rustc src/main.rs # This command compiles the file into an executable binary without using Cargo.
 ```
